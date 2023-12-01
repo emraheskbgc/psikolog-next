@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <footer className="bg-footerBg text-white mt-auto ">
       <div className="flex flex-col md:flex-row px-[100px] py-10">
-        <div className="flex flex-col ml-[80px] md:ml-[40px] ">
+        <div className="flex flex-col  md:ml-[40px] ">
           <h2 className="text-xl mt-5 mb-5 font-bold">Terappin</h2>
           <Link href="/" className={styles.link}>
             Nasıl Çalışır?
@@ -40,7 +40,7 @@ export default function Footer() {
             Başvurusu
           </Link>
         </div>
-        <div className="flex flex-col ml-[80px]">
+        <div className="flex flex-col ">
           <h2 className="text-xl mt-5 mb-5 font-bold">Testler</h2>
           <Link href="/" className={styles.link}>
             Schutte Duygusal Zeka Ölçeği
@@ -67,7 +67,7 @@ export default function Footer() {
             Beck Anksiyete Ölçeği
           </Link>
         </div>
-        <div className="flex flex-col ml-[80px]">
+        <div className="flex flex-col ">
           <h2 className="text-xl mt-5 mb-5 font-bold">Yasal</h2>
           <Link href="/" className={styles.link}>
             Kullanıcı Sözleşmesi
@@ -79,7 +79,7 @@ export default function Footer() {
             KVKK Aydınlatma Metni
           </Link>
         </div>
-        <div className="flex flex-col ml-[80px]">
+        <div className="flex flex-col">
           <h2 className="text-xl mt-5 mb-5 font-bold ">Uygulamayı İndir</h2>
           <div>
             <Image
@@ -108,7 +108,7 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="flex flex-col ml-[80px]">
+        <div className="flex flex-col ">
           <h1 className="text-[40px] mt-1 mb-5 font-bold">terappin</h1>
           <div className="flex flex-row space-x-3">
             <div className="bg-socialBg w-[40px] h-[40px] rounded-full items-center flex justify-center ">
