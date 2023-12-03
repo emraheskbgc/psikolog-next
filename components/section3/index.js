@@ -9,9 +9,9 @@ function Section3() {
         <h4 className="text-md">BİZİM HAKKIMIZDA BİRAZ</h4>
         <h1 className="text-[40px]">yapmayı seviyoruz</h1>
       </div>
-      <div className=" p-10 w-[60%] flex flex-wrap justify-center">
+      <div className=" p-10 w-[50%] grid grid-cols-4  gap-x-4 gap-y-4 justify-center">
         {datas.map((data) => (
-          <div className=" bg-white rounded-b-2xl  m-3 w-1/5" key={data.id}>
+          <div className=" bg-white rounded-b-2xl  " key={data.id}>
             <div className="bg-cartBg h-1"></div>
             <div className="flex flex-col justify-center items-center">
               <Image src={data.image} alt="114" width={100} height={150} />
