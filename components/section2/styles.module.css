@@ -1,0 +1,4 @@
+.hoverContainer:hover span {
+    background-color: socialBg;
+    opacity: 100;
+}

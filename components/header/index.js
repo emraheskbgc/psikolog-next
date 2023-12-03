@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import styles from "./styles.module.css";
@@ -44,7 +45,7 @@ export default function Header() {
       >
         <div className="text-3xl">terappin</div>
         <nav className={styles.nav}>
-          <Link href="/" className="mr-7">
+          <Link href="/nasil-calisir" className="mr-7">
             NASIL ÇALIŞIR
           </Link>
           <Link href="/" className="mr-7">
@@ -75,7 +76,7 @@ export default function Header() {
           >
             Giriş Yap
           </button>
-          <button className=" border h-[55px] px-5 rounded-2xl bg-btnBg text-lg text-white">
+          <button className="  h-[55px] px-5 rounded-2xl bg-btnBg text-lg text-white">
             Hemen Kaydol
           </button>
         </div>
