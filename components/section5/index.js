@@ -165,13 +165,13 @@ function Section5() {
                       className="grid grid-row grid-cols-3 mb-10 opacity-60"
                       key={index}
                     >
-                      <div className="border border-green-900 bg-gray-200 rounded-3xl  p-1 md:text-[10px] text-[8px] mr-1">
+                      <div className="border border-green-900 bg-gray-200 rounded-3xl  p-1 md:text-[10px] text-[5px] text-center mr-1">
                         {skil.skil1}
                       </div>
-                      <div className="border border-green-900 bg-gray-200 rounded-3xl p-1 text-[10px] mr-1">
+                      <div className="border border-green-900 bg-gray-200 rounded-3xl p-1 md:text-[10px] text-[5px] text-center mr-1">
                         {skil.skil2}
                       </div>
-                      <div className="border border-green-900 bg-gray-200 rounded-3xl p-1 text-[10px] mr-1">
+                      <div className="border border-green-900 bg-gray-200 rounded-3xl p-1 md:text-[10px] text-[5px] text-center mr-1">
                         {skil.skil3}
                       </div>
                     </div>
