@@ -129,19 +129,19 @@ export default function Header() {
           {showNav ? (
             <div className="flex flex-col  mb-10 w-full duration-200 items-center text-center ">
               <div className="flex flex-col">
-                <Link href="/" className="mb-8">
+                <Link href="/nasil-calisir" className="mb-8">
                   NASIL ÇALIŞIR?
                 </Link>
-                <Link href="/" className="mb-8">
+                <Link href="/hakkimizda" className="mb-8">
                   HAKKIMZDA
                 </Link>
-                <Link href="/" className="mb-8">
+                <Link href="/psikologlarimiz" className="mb-8">
                   PSİKOLOGLARIMIZ
                 </Link>
-                <Link href="/" className="mb-8">
+                <Link href="/sss" className="mb-8">
                   S.S.S.
                 </Link>
-                <Link href="/" className="mb-8">
+                <Link href="/testler" className="mb-8">
                   TESTLER
                   <span
                     className={`text-[10px] bg-gray-300 rounded-xl px-1  border `}
@@ -167,12 +167,16 @@ export default function Header() {
               </div>
 
               <div className=" flex flex-col justify-center items-center w-full">
-                <button className=" mb-5 w-full bg-purple rounded-2xl p-2">
-                  Giriş Yap
-                </button>
-                <button className=" border w-full h-[55px] px-5 rounded-2xl bg-btnBg text-lg text-white">
-                  Hemen Kaydol
-                </button>
+                <Link href="/login">
+                  <button className=" mb-5 w-full bg-purple rounded-2xl p-2">
+                    Giriş Yap
+                  </button>
+                </Link>
+                <Link href="/register">
+                  <button className=" border w-full h-[55px] px-5 rounded-2xl bg-btnBg text-lg text-white">
+                    Hemen Kaydol
+                  </button>
+                </Link>
               </div>
             </div>
           ) : (
