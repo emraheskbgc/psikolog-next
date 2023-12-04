@@ -128,7 +128,9 @@ function Section5() {
                       height={20}
                       className="border border-slideColor rounded-full"
                     />
-                    <span className={styles.dot}></span>
+                    <span
+                      className={`md:${styles.dot} ${styles.mobileDot}`}
+                    ></span>
                     <p className={`${styles.online} bg-opacity-10 `}>
                       Çevrim İçi
                     </p>

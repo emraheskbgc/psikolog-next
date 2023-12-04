@@ -10,6 +10,18 @@
     background-color: #33a2a4;
     border-radius: 50%;
   }
+  .mobileDot {
+    position: absolute;
+   display: flex;
+   justify-content: center;
+   top: 15px;
+   right: 20px;
+    transform: translate(-90%, -10%);
+    width: 10px;
+    height: 10px;
+    background-color: #33a2a4;
+    border-radius: 50%;
+  }
   .online{
     position: absolute;
     display: flex;
