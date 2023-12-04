@@ -4,12 +4,18 @@ import React, { useState, useEffect } from "react";
 import styles from "./styles.module.css";
 import { TfiWorld } from "react-icons/tfi";
 import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowUp } from "react-icons/io";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoClose } from "react-icons/io5";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showNav, setShowNav] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const handleDropdownToggle = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
 
   const handleHamburger = () => {
     setShowNav(!showNav);
@@ -43,21 +49,23 @@ export default function Header() {
           styles.header
         } fixed top-0 left-0 right-0 z-50`}
       >
-        <div className="text-3xl">terappin</div>
+        <div className="text-3xl">
+          <Link href="/">terappin</Link>
+        </div>
         <nav className={styles.nav}>
           <Link href="/nasil-calisir" className="mr-7">
             NASIL ÇALIŞIR
           </Link>
-          <Link href="/" className="mr-7">
+          <Link href="/hakkimizda" className="mr-7">
             HAKKIMIZDA
           </Link>
-          <Link href="/" className="mr-7">
+          <Link href="/psikologlarimiz" className="mr-7">
             PSİKOLOGLARIMIZ
           </Link>
-          <Link href="/" className="mr-7">
+          <Link href="/sss" className="mr-7">
             S.S.S.
           </Link>
-          <Link href="/" className="mr-7">
+          <Link href="/testler" className="mr-7">
             TESTLER{" "}
             <span
               className={`text-[10px] bg-gray-300 rounded-xl px-1  border `}
@@ -66,18 +74,30 @@ export default function Header() {
             </span>
           </Link>
         </nav>
-        <div className="border flex  border-darkPurple p-3 rounded-2xl">
-          <TfiWorld className="mt-1 mr-1" /> TR{" "}
-          <IoIosArrowDown className="mt-1 ml-1" />
+        <div
+          className="border flex border-darkPurple p-3 rounded-2xl"
+          onClick={handleDropdownToggle}
+        >
+          <TfiWorld className="mt-1 mr-1" />{" "}
+          <div>
+            <div>TR</div>
+            {isDropdownOpen && <div>EN</div>}
+          </div>
+          {isDropdownOpen ? (
+            <IoIosArrowUp className="mt-1 ml-1" />
+          ) : (
+            <IoIosArrowDown className="mt-1 ml-1" />
+          )}
         </div>
+
         <div className="mr-5">
           <button
             className={`mr-7 ${isScrolled ? "bg-purple rounded-2xl p-2 " : ""}`}
           >
-            Giriş Yap
+            <Link href="/login">Giriş Yap</Link>
           </button>
           <button className="  h-[55px] px-5 rounded-2xl bg-btnBg text-lg text-white">
-            Hemen Kaydol
+            <Link href="/register">Hemen Kaydol</Link>
           </button>
         </div>
       </header>
@@ -130,10 +150,20 @@ export default function Header() {
                   </span>
                 </Link>
               </div>
-
-              <div className="border flex  border-darkPurple  p-2 rounded-2xl w-20 items-center mb-16">
-                <TfiWorld className="mt-1 mr-1" /> TR
-                <IoIosArrowDown className="mt-1 ml-1" />
+              <div
+                className="border flex border-darkPurple p-2 rounded-2xl w-20 items-center mb-16"
+                onClick={handleDropdownToggle}
+              >
+                <TfiWorld className="mt-1 mr-1" />{" "}
+                <div>
+                  <div>TR</div>
+                  {isDropdownOpen && <div>EN</div>}
+                </div>
+                {isDropdownOpen ? (
+                  <IoIosArrowUp className="mt-1 ml-1" />
+                ) : (
+                  <IoIosArrowDown className="mt-1 ml-1" />
+                )}
               </div>
 
               <div className=" flex flex-col justify-center items-center w-full">

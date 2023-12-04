@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "category": "Psikolog",
+    "image": "/images/specialists/psi1.jpeg",
+    "name": "Gül Çolak",
+    "department": "Uzman Klinik Psikolog",
+    "camera": 66,
+    "phone": 0,
+    "language": "TR",
+    "price": 320,
+    "skils": [
+      {
+        "skil1": "Uyku Bozuklukları",
+        "skil2": "Depresyon",
+        "skil3": "Panik Bozukluk",
+        "skil4": "Obsesif Kompulsif Bozukluk",
+        "skil5": "Kaygı"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Psikolog",
+    "image": "/images/specialists/psi2.jpg",
+    "name": "Nur Destioğlu",
+    "department": "Psikolog",
+    "camera": 69,
+    "phone": 0,
+    "language": "TR",
+    "price": 320,
+    "skils": [
+      {
+        "skil1": "İlişki Sorunları",
+        "skil2": "Obsesif Komp. Bozukluk",
+        "skil3": "Fobiler",
+        "skil4": "Obsesif Kompulsif Bozukluk",
+        "skil5": "Kaygı"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Diyetisyen",
+    "image": "/images/specialists/diye2.png",
+    "name": "Nurseda Seyhan",
+    "department": "Diyetisyen",
+    "camera": 2,
+    "phone": 2,
+    "language": "TR | EN",
+    "price": 270,
+    "skils": [
+      {
+        "skil1": "Kilo Verme",
+        "skil2": "Diğer Hastalıklar",
+        "skil3": "Yeme Bozuklukları",
+        "skil4": "Hamilelik Sonrası Beslenme",
+        "skil5": "Kilo Kontrolü"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Diyetisyen",
+    "image": "/images/specialists/diye2.png",
+    "name": "Ece Butakın",
+    "department": "Diyetisyen",
+    "camera": 1,
+    "phone": 1,
+    "language": "TR",
+    "price": 270,
+    "skils": [
+      {
+        "skil1": "Kilo Verme",
+        "skil2": "Diğer Hastalıklar",
+        "skil3": "Yeme Bozuklukları",
+        "skil4": "Sporcu Beslenmesi",
+        "skil5": "Kilo Alma"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Fitness",
+    "image": "/images/specialists/fit1.png",
+    "name": "Yavuz Kılıç",
+    "department": "Fitness Eğitmeni",
+    "camera": 12,
+    "phone": 0,
+    "language": "TR ",
+    "price": 245,
+    "skils": [
+      {
+        "skil1": "Fonksiyonel Antrenman",
+        "skil2": "Atletik Performans",
+        "skil3": "Düzeltici Egzersizler",
+        "skil4": "Medikal Fitness",
+        "skil5": "Metabolik Antrenman"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Fitness",
+    "image": "/images/specialists/fit2.png",
+    "name": "İrfan Yüncü",
+    "department": "Fitness Eğitmeni",
+    "camera": 0,
+    "phone": 0,
+    "language": "TR ",
+    "price": 245,
+    "skils": [
+      {
+        "skil1": "Fonksiyonel Antrenman",
+        "skil2": "Atletik Performans",
+        "skil3": "Düzeltici Egzersizler",
+        "skil4": "Medikal Fitness",
+        "skil5": "Metabolik Antrenman"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Fitness",
+    "image": "/images/specialists/fit2.png",
+    "name": "İrfan Yüncü",
+    "department": "Fitness Eğitmeni",
+    "camera": 0,
+    "phone": 0,
+    "language": "TR ",
+    "price": 245,
+    "skils": [
+      {
+        "skil1": "Fonksiyonel Antrenman",
+        "skil2": "Atletik Performans",
+        "skil3": "Düzeltici Egzersizler",
+        "skil4": "Medikal Fitness",
+        "skil5": "Metabolik Antrenman"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Psikolog",
+    "image": "/images/specialists/psi1.jpeg",
+    "name": "Gül Çolak",
+    "department": "Uzman Klinik Psikolog",
+    "camera": 66,
+    "phone": 0,
+    "language": "TR",
+    "price": 320,
+    "skils": [
+      {
+        "skil1": "Uyku Bozuklukları",
+        "skil2": "Depresyon",
+        "skil3": "Panik Bozukluk",
+        "skil4": "Obsesif Kompulsif Bozukluk",
+        "skil5": "Kaygı"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Diyetisyen",
+    "image": "/images/specialists/diye2.png",
+    "name": "Ece Butakın",
+    "department": "Diyetisyen",
+    "camera": 1,
+    "phone": 1,
+    "language": "TR",
+    "price": 270,
+    "skils": [
+      {
+        "skil1": "Kilo Verme",
+        "skil2": "Diğer Hastalıklar",
+        "skil3": "Yeme Bozuklukları",
+        "skil4": "Sporcu Beslenmesi",
+        "skil5": "Kilo Alma"
+      }
+    ]
+  }
+]
