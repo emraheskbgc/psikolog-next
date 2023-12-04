@@ -26,7 +26,7 @@ export default function Header() {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
       // Eğer scroll değeri belirli bir noktadan daha fazlaysa, arka planı değiştir
-      setIsScrolled(scrollTop > 70); // 100 değeri değiştirilebilir, istediğiniz scroll mesafesine göre
+      setIsScrolled(scrollTop > 70); // 70 değeri değiştirilebilir, istediğiniz scroll mesafesine göre
     };
 
     // Scroll olayını dinleme işlemi

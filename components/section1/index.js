@@ -15,7 +15,7 @@ function Section1() {
           Hemen Başla
         </button>
       </div>
-      <div className="ml-20">
+      <div className="md:ml-20">
         <Image
           src="/images/psikologofisi.webp"
           alt="bitmap"
