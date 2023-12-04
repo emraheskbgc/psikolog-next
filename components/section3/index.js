@@ -16,7 +16,9 @@ function Section3() {
             <div className="bg-cartBg h-1"></div>
             <div className="flex flex-col justify-center items-center">
               <Image src={data.image} alt="114" width={100} height={150} />
-              <h2 className="pb-5 text-section3Bg font-[500]">{data.title}</h2>
+              <h3 className="pb-5 text-center text-section3Bg font-[500]">
+                {data.title}
+              </h3>
               <Link href={`/service/${data.id}`}>
                 <p className="mb-4 text-[10px] underline underline-offset-8 hover:text-cartBg hover:cursor-pointer hover:font-bold ">
                   DAHA FAZLA
