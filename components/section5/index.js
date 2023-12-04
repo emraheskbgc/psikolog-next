@@ -129,7 +129,7 @@ function Section5() {
                       className="border border-slideColor rounded-full"
                     />
                     <span
-                      className={`md:${styles.dot} ${styles.mobileDot}`}
+                      className={`${styles.dot} ${styles.mobileDot}`}
                     ></span>
                     <p className={`${styles.online} bg-opacity-10 `}>
                       Çevrim İçi

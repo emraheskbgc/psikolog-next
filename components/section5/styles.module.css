@@ -1,15 +1,4 @@
-.dot {
-    position: absolute;
-   display: flex;
-   justify-content: center;
-   top: 0;
-   right: 145px;
-    transform: translate(-90%, -10%);
-    width: 10px;
-    height: 10px;
-    background-color: #33a2a4;
-    border-radius: 50%;
-  }
+
   .mobileDot {
     position: absolute;
    display: flex;
@@ -21,6 +10,20 @@
     height: 10px;
     background-color: #33a2a4;
     border-radius: 50%;
+  }
+  @media (min-width:768px){
+    .dot {
+      position: absolute;
+     display: flex;
+     justify-content: center;
+     top: 5px;
+     right: 120px;
+      transform: translate(-90%, -10%);
+      width: 10px;
+      height: 10px;
+      background-color: #33a2a4;
+      border-radius: 50%;
+    }
   }
   .online{
     position: absolute;
