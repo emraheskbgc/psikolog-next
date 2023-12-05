@@ -8,7 +8,7 @@ import { BsCameraVideoFill } from "react-icons/bs";
 import datas from "../../data/howToUse.json";
 function Section2() {
   const [selectImage, setSelectImage] = useState("/images/step1.jpg");
-  const [selectItemId, setSelectItemId] = useState(null);
+  const [selectItemId, setSelectItemId] = useState(datas[0].id);
 
   const handleDivClick = (data) => {
     setSelectImage(data.image);
