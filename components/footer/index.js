@@ -153,7 +153,7 @@ export default function Footer() {
             src="/images/bitmap.png"
             alt="bitmap"
             width={500}
-            height={40}
+            height={500}
           />
         </div>
       </div>

@@ -5,6 +5,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+
   theme: {
     extend: {
       backgroundImage: {
@@ -27,6 +28,9 @@ module.exports = {
         sssBtnHover: "#157e7a",
         sssBg: "#edf8f4",
         sssTitle: "#4a4c79",
+        onlineBg: "#ebfbf2",
+        nameColor: "#585557",
+        speBtnColor: "#34a0a4",
       },
     },
   },

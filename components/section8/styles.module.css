@@ -1,0 +1,17 @@
+.mainDiv{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #33a2a4;
+    border-radius: 50%;
+}
+.dot{
+    position: absolute;
+    height: 25px;
+    width: 25px ;
+    background-color: #33a2a4;
+    border: 6px solid white;
+    border-radius: 50%;
+    right: 0px;
+    top: 0px;
+}

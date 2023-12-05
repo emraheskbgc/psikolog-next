@@ -25,7 +25,7 @@ function Section2() {
             <div
               key={data.id}
               onClick={() => handleDivClick(data)}
-              className={`md:mb-4 flex text-center md:text-left md:flex-col flex-row md:pl-4 md:pt-3 rounded-lg  ${
+              className={`md:mb-4 flex text-center md:text-left md:flex-col flex-row md:pl-4 md:pt-3 rounded-lg hover:cursor-pointer hover:bg-gray-200 hover:text-btnBg ${
                 selectItemId === data.id ? styles.hoverContainer : ""
               }`}
             >
@@ -44,14 +44,14 @@ function Section2() {
           ))}
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center md:ml-36 mb-5">
+      <div className="flex flex-col justify-center items-center md:ml-36 mb-10 mt-10">
         <Image
           src={selectImage}
           alt="appointment iamge"
           width={500}
-          height={40}
+          height={500}
         />
-        <p className="text-center text-purple text-xl md:hidden">
+        <p className="text-center text-purple text-xl md:hidden mt-10">
           Terapi seansın için en uygun tarih ve saati, seansler sekmesinden
           kolayca seçerek oluşturun. Seansınıza 24 saaat kalana kadar iptal
           edebilirsiniz

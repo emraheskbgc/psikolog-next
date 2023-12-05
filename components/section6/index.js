@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import datas from "../../data/question.json";
 import { FaChevronDown } from "react-icons/fa6";
 import { FaChevronUp } from "react-icons/fa6";
+import { BiSolidDownArrow } from "react-icons/bi";
+import { BiSolidUpArrow } from "react-icons/bi";
 
 function Section6() {
   const [showDesc, setShowDesc] = useState(null);
@@ -33,8 +35,12 @@ function Section6() {
               <h2 className="font-bold text-sssTitle hover:text-black cursor-pointer">
                 {data.title}
               </h2>
-              <span className="border p-2 rounded-full bg-white hover:bg-gray-200 ml-10">
-                {showDesc === data.id ? <FaChevronUp /> : <FaChevronDown />}
+              <span className="border p-2 rounded-full cursor-pointer text-speBtnColor bg-white hover:bg-gray-200 ml-10">
+                {showDesc === data.id ? (
+                  <BiSolidUpArrow />
+                ) : (
+                  <BiSolidDownArrow />
+                )}
               </span>
             </div>
 
@@ -47,7 +53,7 @@ function Section6() {
           </div>
         ))}
       </div>
-      <button className="block md:hidden text-white bg-sssBtn p-2 rounded-3xl mb-10 hover:bg-sssBtnHover">
+      <button className="block md:hidden text-white bg-sssBtn p-2 mt-8 rounded-3xl  hover:bg-sssBtnHover">
         Tümünü Gör
       </button>
     </div>

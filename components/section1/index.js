@@ -4,8 +4,8 @@ import Image from "next/image";
 function Section1() {
   return (
     <section className="flex md:flex-row flex-col justify-center items-center pt-20 ">
-      <div>
-        <h1 className="text-darkPurple text-[20px] md:text-[50px] font-bold">
+      <div className="flex flex-col justify-center md:text-left text-center">
+        <h1 className="text-darkPurple text-[25px] md:text-[50px] font-bold">
           Online terapi ile değişimi başlat !
         </h1>
         <p className="text-darkPurple font-bold mt-5 mb-5">
@@ -18,9 +18,10 @@ function Section1() {
       <div className="md:ml-20">
         <Image
           src="/images/psikologofisi.webp"
+          priority="high"
           alt="bitmap"
           width={400}
-          height={40}
+          height={400}
         />
       </div>
     </section>
