@@ -1,4 +1,9 @@
-.hoverContainer:hover span {
-    background-color: socialBg;
+.hoverContainer{
+    background-color: #f3f4f6;
+    color: #5636be;
     opacity: 100;
+    font-weight: 500;
+}
+.hoverContainer{
+    cursor: pointer;
 }
